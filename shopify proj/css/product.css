@@ -1,0 +1,170 @@
+main{
+  background-color: white;
+}
+
+.containor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 80px 1fr 80px 1fr 80px;
+    width: 90%;
+    height: 100%;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+  }
+
+  .prod1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+  }
+
+  .prod2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+  }
+
+  .prod3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  
+  .prod1{
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod1:hover {
+    transform: scale(1.1); 
+  }
+  
+  .prod2  {
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod2:hover {
+    transform: scale(1.1); 
+  }
+  .prod3  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod3:hover {
+    transform: scale(1.1); 
+  }
+  .prod4  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod4:hover {
+    transform: scale(1.1); 
+  }
+  .prod9  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod9:hover {
+    transform: scale(1.1); 
+  }
+  .prod10  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod10:hover {
+    transform: scale(1.1); 
+  }
+  .prod11  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod11:hover {
+    transform: scale(1.1); 
+  }
+  .prod12  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod12:hover {
+    transform: scale(1.1); 
+  }
+  .prod17  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod17:hover {
+    transform: scale(1.1); 
+  }
+  .prod18  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod18:hover {
+    transform: scale(1.1); 
+  }
+  .prod19  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod19:hover {
+    transform: scale(1.1); 
+  }
+  .prod20  {
+
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .prod20:hover {
+    transform: scale(1.1); 
+  }
+ .prod5,.prod6,.prod7,.prod8,.prod13,.prod14,.prod15,.prod16,.prod21,.prod22,.prod23,.prod24  {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+ }
+  

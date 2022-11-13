@@ -1,0 +1,285 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #535956;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    width: 100%;
+  }
+  
+
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    width: 16.6%;
+  }
+  
+
+  .dropdown .dropbtn {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 16.6%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #dropdowns {
+    width: 17%;
+  }
+
+  #dropdowns-content {
+    width: 17%;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 38% 38% 24%;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    background-color: rgb(61, 56, 56);
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .top {
+    background-color: turquoise;
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+
+  .middle1{
+    background-color: crimson;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .middle2 {
+    background-color: yellow;
+    grid-column-start: 4;
+    grid-column-end: 7;
+  }
+
+  .bottom1 {
+    background-color: lime;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .bottom2 {
+    background-color: darkorchid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .bottom3 {
+    background-color: royalblue;
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+  main{
+    background-color: rgb(61, 56, 56);
+  }
+
+  .center-text-m{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+  }
+
+.center-text-m a
+{
+    text-decoration: none;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    color: white;
+}
+.center-text-m a:hover {
+  font-size: 120px;
+  color: rgb(49, 231, 218);
+}
+
+.center-text-n{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.center-text-n a
+{
+  text-decoration: none;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: black;
+}
+.center-text-n a:hover {
+font-size: 85px;
+color: rgb(49, 231, 218);
+}
+.middle1{
+  position: relative;
+}
+
+.center-text-o {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.center-text-o a
+{
+  text-decoration: none;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: black;
+}
+.center-text-o a:hover {
+font-size: 85px;
+color: rgb(49, 231, 218);
+}
+.middle2{
+  position: relative;
+}
+
+.center-text-p {
+  position: absolute;
+  top: 90%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.center-text-p a
+{
+  text-decoration: none;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: white;
+}
+.center-text-p a:hover {
+font-size: 85px;
+color: rgb(49, 231, 218);
+}
+.bottom1{
+  position: relative;
+}
+
+.center-text-q {
+  position: absolute;
+  top: 90%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.center-text-q a
+{
+  text-decoration: none;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: white;
+}
+.center-text-q a:hover {
+font-size: 85px;
+color: rgb(49, 231, 218);
+}
+.bottom2{
+  position: relative;
+}
+
+.center-text-r {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.center-text-r a
+{
+  text-decoration: none;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: white;
+}
+.center-text-r a:hover {
+font-size: 85px;
+color: rgb(49, 231, 218);
+}
+.bottom3{
+  position: relative;
+}
+
+.top:hover{
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.middle1:hover{
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.middle2:hover{
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.bottom1:hover{
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.bottom2:hover{
+  opacity: 0.4;
+  transition: 0.6s;
+}
+.bottom3:hover{
+  opacity: 0.4;
+  transition: 0.6s;
+}
